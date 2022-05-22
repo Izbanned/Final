@@ -7,15 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3663A4A22837835900BC78DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3663A4A12837835900BC78DF /* GoogleService-Info.plist */; };
+		3663A4A528379AD700BC78DF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3663A4A428379AD700BC78DF /* LoginViewController.swift */; };
+		3663A4A728379AE600BC78DF /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3663A4A628379AE600BC78DF /* RegistrationViewController.swift */; };
 		369302EB2836B1DE00F07CB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369302EA2836B1DE00F07CB1 /* AppDelegate.swift */; };
 		369302ED2836B1DE00F07CB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369302EC2836B1DE00F07CB1 /* SceneDelegate.swift */; };
 		369302EF2836B1DE00F07CB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369302EE2836B1DE00F07CB1 /* ViewController.swift */; };
 		369302F22836B1DE00F07CB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 369302F02836B1DE00F07CB1 /* Main.storyboard */; };
 		369302F42836B1E000F07CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 369302F32836B1E000F07CB1 /* Assets.xcassets */; };
 		369302F72836B1E000F07CB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 369302F52836B1E000F07CB1 /* LaunchScreen.storyboard */; };
+		36ADD2A82838C909002B8AAC /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ADD2A72838C909002B8AAC /* TabBarViewController.swift */; };
+		36ADD2AA2838CBBF002B8AAC /* UiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ADD2A92838CBBF002B8AAC /* UiTableViewController.swift */; };
+		36ADD2AC2838E7BA002B8AAC /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ADD2AB2838E7BA002B8AAC /* NotesViewController.swift */; };
+		36ADD2B02838FCB1002B8AAC /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ADD2AF2838FCB1002B8AAC /* Note.swift */; };
+		36ADD2B528391B66002B8AAC /* MoodleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ADD2B428391B66002B8AAC /* MoodleViewController.swift */; };
+		36EEA9BC283A4B8E0037CE54 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EEA9BB283A4B8E0037CE54 /* SettingsViewController.swift */; };
+		36EEA9BE283A6C550037CE54 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EEA9BD283A6C550037CE54 /* ResetPasswordViewController.swift */; };
+		36EEA9C0283A94B40037CE54 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EEA9BF283A94B40037CE54 /* WeatherManager.swift */; };
+		36EEA9C2283A94C00037CE54 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EEA9C1283A94C00037CE54 /* WeatherData.swift */; };
+		36EEA9C4283A94CD0037CE54 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EEA9C3283A94CD0037CE54 /* WeatherModel.swift */; };
+		36EEA9C6283A950E0037CE54 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EEA9C5283A950E0037CE54 /* WeatherViewController.swift */; };
+		97D6D38B19FF9264905934BD /* Pods_Final.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2208E8EBFF81B12EDF3F022A /* Pods_Final.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A577CCA2DC60567CECAB07C /* Pods-Final.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final.release.xcconfig"; path = "Target Support Files/Pods-Final/Pods-Final.release.xcconfig"; sourceTree = "<group>"; };
+		2208E8EBFF81B12EDF3F022A /* Pods_Final.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Final.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3663A4A12837835900BC78DF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3663A4A428379AD700BC78DF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3663A4A628379AE600BC78DF /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		369302E72836B1DE00F07CB1 /* Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Final.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		369302EA2836B1DE00F07CB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		369302EC2836B1DE00F07CB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +44,18 @@
 		369302F32836B1E000F07CB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		369302F62836B1E000F07CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		369302F82836B1E000F07CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36ADD2A72838C909002B8AAC /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		36ADD2A92838CBBF002B8AAC /* UiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiTableViewController.swift; sourceTree = "<group>"; };
+		36ADD2AB2838E7BA002B8AAC /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		36ADD2AF2838FCB1002B8AAC /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		36ADD2B428391B66002B8AAC /* MoodleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodleViewController.swift; sourceTree = "<group>"; };
+		36EEA9BB283A4B8E0037CE54 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		36EEA9BD283A6C550037CE54 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		36EEA9BF283A94B40037CE54 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		36EEA9C1283A94C00037CE54 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		36EEA9C3283A94CD0037CE54 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		36EEA9C5283A950E0037CE54 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		8036A0C7987D4CC9258C4814 /* Pods-Final.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final.debug.xcconfig"; path = "Target Support Files/Pods-Final/Pods-Final.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97D6D38B19FF9264905934BD /* Pods_Final.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AF508301D2576720E7109C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2208E8EBFF81B12EDF3F022A /* Pods_Final.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3663A4A328379AC200BC78DF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				369302EE2836B1DE00F07CB1 /* ViewController.swift */,
+				3663A4A428379AD700BC78DF /* LoginViewController.swift */,
+				3663A4A628379AE600BC78DF /* RegistrationViewController.swift */,
+				36ADD2A72838C909002B8AAC /* TabBarViewController.swift */,
+				36ADD2A92838CBBF002B8AAC /* UiTableViewController.swift */,
+				36EEA9BD283A6C550037CE54 /* ResetPasswordViewController.swift */,
+				36ADD2AB2838E7BA002B8AAC /* NotesViewController.swift */,
+				36ADD2B428391B66002B8AAC /* MoodleViewController.swift */,
+				36EEA9BB283A4B8E0037CE54 /* SettingsViewController.swift */,
+				36EEA9C5283A950E0037CE54 /* WeatherViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		369302DE2836B1DE00F07CB1 = {
 			isa = PBXGroup;
 			children = (
 				369302E92836B1DE00F07CB1 /* Final */,
 				369302E82836B1DE00F07CB1 /* Products */,
+				D2D3488BD4477251F62CCD04 /* Pods */,
+				1AF508301D2576720E7109C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +118,35 @@
 			children = (
 				369302EA2836B1DE00F07CB1 /* AppDelegate.swift */,
 				369302EC2836B1DE00F07CB1 /* SceneDelegate.swift */,
-				369302EE2836B1DE00F07CB1 /* ViewController.swift */,
+				36ADD2B12838FCB5002B8AAC /* Models */,
+				3663A4A328379AC200BC78DF /* Controllers */,
 				369302F02836B1DE00F07CB1 /* Main.storyboard */,
 				369302F32836B1E000F07CB1 /* Assets.xcassets */,
 				369302F52836B1E000F07CB1 /* LaunchScreen.storyboard */,
 				369302F82836B1E000F07CB1 /* Info.plist */,
+				3663A4A12837835900BC78DF /* GoogleService-Info.plist */,
 			);
 			path = Final;
+			sourceTree = "<group>";
+		};
+		36ADD2B12838FCB5002B8AAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				36ADD2AF2838FCB1002B8AAC /* Note.swift */,
+				36EEA9BF283A94B40037CE54 /* WeatherManager.swift */,
+				36EEA9C1283A94C00037CE54 /* WeatherData.swift */,
+				36EEA9C3283A94CD0037CE54 /* WeatherModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D2D3488BD4477251F62CCD04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8036A0C7987D4CC9258C4814 /* Pods-Final.debug.xcconfig */,
+				0A577CCA2DC60567CECAB07C /* Pods-Final.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 369302FB2836B1E000F07CB1 /* Build configuration list for PBXNativeTarget "Final" */;
 			buildPhases = (
+				3F588826DB206DD520753CA5 /* [CP] Check Pods Manifest.lock */,
 				369302E32836B1DE00F07CB1 /* Sources */,
 				369302E42836B1DE00F07CB1 /* Frameworks */,
 				369302E52836B1DE00F07CB1 /* Resources */,
+				3407B7671C3F8284FFC9B7BE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				369302F72836B1E000F07CB1 /* LaunchScreen.storyboard in Resources */,
+				3663A4A22837835900BC78DF /* GoogleService-Info.plist in Resources */,
 				369302F42836B1E000F07CB1 /* Assets.xcassets in Resources */,
 				369302F22836B1DE00F07CB1 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +218,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3407B7671C3F8284FFC9B7BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Final/Pods-Final-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Final/Pods-Final-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Final/Pods-Final-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F588826DB206DD520753CA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Final-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		369302E32836B1DE00F07CB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36ADD2B528391B66002B8AAC /* MoodleViewController.swift in Sources */,
+				3663A4A528379AD700BC78DF /* LoginViewController.swift in Sources */,
+				36EEA9C2283A94C00037CE54 /* WeatherData.swift in Sources */,
 				369302EF2836B1DE00F07CB1 /* ViewController.swift in Sources */,
+				36EEA9C4283A94CD0037CE54 /* WeatherModel.swift in Sources */,
+				36EEA9C6283A950E0037CE54 /* WeatherViewController.swift in Sources */,
 				369302EB2836B1DE00F07CB1 /* AppDelegate.swift in Sources */,
+				36EEA9C0283A94B40037CE54 /* WeatherManager.swift in Sources */,
 				369302ED2836B1DE00F07CB1 /* SceneDelegate.swift in Sources */,
+				36ADD2AC2838E7BA002B8AAC /* NotesViewController.swift in Sources */,
+				36EEA9BC283A4B8E0037CE54 /* SettingsViewController.swift in Sources */,
+				36ADD2B02838FCB1002B8AAC /* Note.swift in Sources */,
+				36ADD2A82838C909002B8AAC /* TabBarViewController.swift in Sources */,
+				36EEA9BE283A6C550037CE54 /* ResetPasswordViewController.swift in Sources */,
+				36ADD2AA2838CBBF002B8AAC /* UiTableViewController.swift in Sources */,
+				3663A4A728379AE600BC78DF /* RegistrationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +422,7 @@
 		};
 		369302FC2836B1E000F07CB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8036A0C7987D4CC9258C4814 /* Pods-Final.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +451,7 @@
 		};
 		369302FD2836B1E000F07CB1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A577CCA2DC60567CECAB07C /* Pods-Final.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
